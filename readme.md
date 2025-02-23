@@ -1,3 +1,24 @@
+# Heceleme Programı
+
+Bu proje, verilen Türkçe string parametresini hecelerine ayıran bir fonksiyon içerir.
+
+## Kullanılan Fonksiyon
+
+### `hecele(kelime)`
+
+Bu fonksiyon, bir kelimeyi hecelerine ayırır ve heceleri bir dizi olarak döndürür.
+
+#### Parametreler:
+- `kelime` (string): Hecelerine ayrılacak kelime.
+
+#### Dönüş Değeri:
+- `string[]`: Hecelerden oluşan bir dizi.
+
+#### Örnek Kullanım:
+```javascript
+console.log(hecele('istanbul')); // ['is', 'tan', 'bul']
+```
+
 ```mermaid
 flowchart TD
     A[Başla] --> B[Kelimeyi al]
